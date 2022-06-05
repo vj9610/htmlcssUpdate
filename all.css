@@ -241,6 +241,10 @@ body {
     border-bottom: 2px solid #ffd153;
     opacity: 1;
     margin-bottom: 32px;
+    padding: 0 20px;
+  }
+  .top img {
+    width: 130px;
   }
   .banner {
     display: -webkit-box;
@@ -261,6 +265,7 @@ body {
     height: 305px;
   }
   .banner .banner-text {
+    max-width: 335px;
     margin-bottom: 32px;
   }
   .banner .banner-text h5 {
@@ -422,6 +427,9 @@ body {
 }
 
 @media (max-width: 767px) {
+  .char h3 {
+    padding: 0 20px;
+  }
   .ch {
     max-width: 100%;
     -webkit-box-orient: vertical;
@@ -453,7 +461,7 @@ body {
 }
 
 .traffic .function-card {
-  max-width: 49%;
+  max-width: 507px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -509,7 +517,7 @@ body {
 }
 
 .traffic .function-text {
-  max-width: 38%;
+  max-width: 395px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -567,7 +575,7 @@ body {
     margin-bottom: 60px;
   }
   .function-text {
-    max-width: 100%;
+    width: 335px;
     margin-bottom: 32px;
     text-align: center;
   }
